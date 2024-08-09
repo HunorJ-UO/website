@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title >Vought</title>
+  <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1A3alqmPk9XRyf6KgKInCUVhMzMNoWoDMYA&s">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 style="color: rgba(0, 81, 255, 0.928);"><u style="text-decoration-color:#000000;">Vought</u></h1>      
+    <p> <!DOCTYPE html>
+      <html>
+      
+      <body>
+        
+          <marquee direction="right"><p style="font-size:160%; color: rgba(0, 81, 255, 0.928);" >The Online Watch Store</p></marquee>
+          
+      </body>
+      
+      </html>
+       </p>
+  </div>
+</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Toggle</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+      background-color: #555;
+    }
+
+    body.dark-mode {
+      background-color: #121212;
+      color: rgb(0, 0, 0);
+    }
+
+    .navbar.dark-mode, .jumbotron.dark-mode, footer.dark-mode {
+      background-color: #333;
+      color: white;
+    }
+
+    button.dark-mode {
+      background-color: white;
+      color: #333;
+    }
+
+    button.dark-mode:hover {
+      background-color: #ddd;
+    }
+    </style>
+</head>
+<body>
+  <button id="dark-mode-toggle"> Dark Mode</button>
+  <script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+  
+    if (localStorage.getItem('dark-mode') === 'enabled') {
+      document.body.classList.add('dark-mode');
+      document.querySelectorAll('.navbar, .jumbotron, footer').forEach(el => el.classList.add('dark-mode'));
+      toggleButton.textContent = 'Light Mode';
+      toggleButton.classList.add('dark-mode');
+    }
+  
+    toggleButton.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      document.querySelectorAll('.navbar, .jumbotron, footer').forEach(el => el.classList.toggle('dark-mode'));
+  
+      if (document.body.classList.contains('dark-mode')) {
+        toggleButton.textContent = 'Light Mode';
+        toggleButton.classList.add('dark-mode');
+        localStorage.setItem('dark-mode', 'enabled');
+      } else {
+        toggleButton.textContent = 'Dark Mode';
+        toggleButton.classList.remove('dark-mode');
+        localStorage.setItem('dark-mode', 'disabled');
+      }
+    });
+  </script>
+</body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">   <map name=""></map>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="website.html">Home</a></li>
+        <li><a href="Aboutus.html">About us</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        
+        <a href="watch1.html"><button style=" border:none "type="button" class="btn btn-link"><div class="panel-body"><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/6/6/0/1/6/0161f16e-b7c4-4f64-9aae-62b4ad40960d.jpg" style="width:100%"></div></button></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">250$</p><br>Baume & Mercier</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary class">
+        <div class="panel-heading"><p style="font-size:160%; color:red; font-family:verdana">BLACK FRIDAY DEAL!</p></div>
+        <div class="panel-body"><a href="watch2.html"><button type="button" class="btn btn-link"><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/6/25/b/6/f/b6fc9839-aa6a-43d9-abf0-9ef4f2d6b328.jpg" class="img-responsive" style="width:100%" alt="Image"></button></div></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana; text-decoration: line-through;">250$</p><br><p style="font-size:160%; color:red; font-family:verdana">200$!!</p><br>Maurice Lacroix</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary class">
+        <div class="panel-heading"><p style="font-size:160%; color:red; font-family:verdana">BLACK FRIDAY DEAL!</p></div>
+        <div class="panel-body"><a href="watch3.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/21/0/f/3/0f3649db-8fb8-4275-8050-22c9b27307bb.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana; text-decoration: line-through;">250$</p><br><p style="font-size:160%; color:red; font-family:verdana">150!!!$</p><br>Delbana</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body"><a href="watch4.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/1/7/1/3/0/130c0589-977f-43ae-9d6c-5ff19f619cbc.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">550$</p><br>Glycine Airman </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body"><a href="watch5.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/2/19/3/a/6/3a635de5-5c95-43e1-801d-bf380b401a39.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">50$</p><br>Tag Heuer Limited Edition </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body"><a href="watch6.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/16/b/5/7/b578bae5-e016-429d-9e6d-5efe0b017e16.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+        <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">300$</p><br>Mühle Glashütte</div>
+    </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch7.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/18/2/c/9/2c98235a-58e3-4b1f-8930-0756d6882e60.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">30$</p><br>Military Moeris Vintage-Swiss </div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch8.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/17/a/b/0/ab05ba32-a4fd-4396-9f63-ca6dd160044a.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">1500$</p><br>Franck Muller - Color Dreams <br> <p style="text-transform: uppercase; color:red"><b>Buy this watch now and get a free giftcard + free shipping!!!</b></p></div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch9.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/11/f/8/1/f8112155-7df8-47f1-9e6a-02bd997f6009.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">200$</p><br>Cartier - Tank Solo Pink</div>
+      </div>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch10.html"><button type="button" class="btn btn-link"></button><img src="https://www.omegawatches.com/media/catalog/product/o/m/omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002-198df2.png?w=700" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">30$</p><br>Omega speedmaster</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch11.html"><button type="button" class="btn btn-link"></button><img src="https://media.rolex.com/image/upload/v1710426087/rolexcom/new-watches/2024/main-navigation/rolex-watches-navigation-submariner-m124060-0001-10156_rsa_submariner_41_m124060_0001_carrousel_24-portrait.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">2200$</p><br>Rolex Submariner </div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch12.html"><button type="button" class="btn btn-link"></button><img src="https://monochrome-watches.com/wp-content/uploads/2023/01/TAG-Heuer-Carrera-Chronograph-Year-of-the-Rabbit-BN2A1L-FC6521-3.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">200$</p><br>Tag Heuer Carrera</div>
+      </div>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch13.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/10/1/4/c/14c58ab6-dfbf-4d37-82b9-cf20b86f13ec.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">30$</p><br>RSW</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch14.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/5/23/2/1/7/217f20fa-0225-4982-a43f-ed430ee40bae.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">220$</p><br>Tecnotempo - Special Limited Edition "Wind Rose"  </div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch15.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/1/1/e/7/1e76fd98-e58f-4d9a-aeeb-2381905bfc0e.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">200$</p><br>Sevenfriday - Q2/02</div>
+      </div>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch16.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/6/20/2/9/0/290d20a6-20a3-4e2a-84f9-48474ac098ce.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">1770$</p><br>Piaget - Altiplano</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch17.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/8/1/b/0/e/b0e115e7-4482-4e75-a99b-9c6a24684696.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">250$</p><br>Lovental </div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading"></div>
+          <div class="panel-body"><a href="watch18.html"><button type="button" class="btn btn-link"></button><img src="https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2024/7/9/8/1/e/81e7b57e-cbc0-4a9a-8599-a74112c2c2b0.jpg" class="img-responsive" style="width:100%" alt="Image"></div></a>
+          <div class="panel-footer"><p style="font-size:160%; color:red; font-family:verdana">1000$</p><br>International Watch Co. - IWC </div>
+      </div>
+      </div>
+    </div>
+  </div><br>
+
+  
+
+<footer class="container-fluid text-center" style="background-color: #929292;">
+  <p style="color: #555;">Copyright © 2024 Vought Corp. <br> All rights reserved</p>  
+  
+</footer>
+
+</body>
+</html>
